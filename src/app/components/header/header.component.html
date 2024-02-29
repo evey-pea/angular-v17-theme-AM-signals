@@ -1,0 +1,16 @@
+<mat-toolbar>
+  <button mat-icon-button aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <div class="theme-toggle">
+    <mat-slide-toggle checked (click)="toggleTheme()"></mat-slide-toggle>
+    <button mat-icon-button>
+      @if (themeService.themeSignal() === "dark") {
+      <mat-icon>bedtime</mat-icon>
+      } @else {
+      <mat-icon>brightness_5</mat-icon>
+      }
+    </button>
+  </div>
+</mat-toolbar>

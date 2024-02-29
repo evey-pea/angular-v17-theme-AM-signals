@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 
+## Source Material
+
+[Angular v17 using Signals to apply Dark and Light Mode](https://youtu.be/0rH94qSOrMk?si=GS0mAra-0bjuTzxu)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
